@@ -20,7 +20,7 @@
 #' @importFrom Matrix Matrix solve
 #' @export
 #'
-eQTLmapping_susie <- function(bX,LD,Nvec,pip.thres=0.2,pip.min=0.05,L=5,resample=F,sampling.time=100) {
+eQTLmapping_susie <- function(bX,LD,Nvec,pip.thres=0.5,pip.min=0.2,L=5,resample=F,sampling.time=100) {
 p <- ncol(bX)
 B <- bX * 0
 colnames(B)=colnames(bX)
