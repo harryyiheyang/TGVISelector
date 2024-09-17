@@ -7,7 +7,7 @@
 #' @param LD The LD matrix of variants.
 #' @param Noutcome The sample size of the outcome GWAS.
 #' @param L.causal The number of single effects used for tissue-gene pairs and direct causal variants. Default is 10.
-#' @param pip.thres.cred The cumulative PIP threshold for variables in a credible set. Default is 0.5.
+#' @param pip.thres.cred The cumulative PIP threshold for variables in a credible set. Default is 0.95.
 #'
 #' @return A list containing:
 #' \describe{
