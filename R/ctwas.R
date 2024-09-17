@@ -31,7 +31,7 @@
 #' @importFrom Matrix Matrix solve
 #' @export
 #'
-ctwas <- function(by, bXest, LD, Noutcome, L.causal = 10, pip.thres.cred = 0.5) {
+ctwas <- function(by, bXest, LD, Noutcome, L.causal = 10, pip.thres.cred = 0.95) {
 ####################################### Preparing the data #####################################
 n <- length(by)
 p <- dim(bXest)[2]
